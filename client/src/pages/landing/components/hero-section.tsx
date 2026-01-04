@@ -1,4 +1,4 @@
-import { IconMail, IconSend } from '@tabler/icons-react'
+import { IconLink, IconSend } from '@tabler/icons-react'
 import { Button } from '@/components/ui/button'
 
 export default function HeroSection() {
@@ -8,22 +8,21 @@ export default function HeroSection() {
         <div className="relative mx-auto max-w-6xl px-6 pb-20 pt-32 lg:pt-48">
           <div className="relative z-10 mx-auto max-w-4xl text-center">
             <h1 className="text-balance text-5xl font-medium md:text-6xl">
-              Healthier daily routine
+              Small links, Big reach
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-pretty text-lg">
-              Tailwindcss highly customizable components for building modern
-              websites and applications that look and feel the way you mean it.
+              An open-source link management platform for creating branded short links, tracking engagement, and extending your reach with confidence.
             </p>
 
             <div className="mt-12">
               <form action="" className="mx-auto max-w-sm">
                 <div className="bg-background has-[input:focus]:ring-muted relative grid grid-cols-[1fr_auto] items-center rounded-[calc(var(--radius)+0.5rem)] border pr-2 shadow shadow-zinc-950/5 has-[input:focus]:ring-2">
-                  <IconMail className="pointer-events-none absolute inset-y-0 left-4 my-auto size-4" />
+                  <IconLink className="pointer-events-none absolute inset-y-0 left-4 my-auto size-4" />
 
                   <input
-                    placeholder="Your mail address"
+                    placeholder="Paste your link"
                     className="h-12 w-full bg-transparent pl-12 focus:outline-none"
-                    type="email"
+                    type="text"
                   />
 
                   <div className="md:pr-1.5 lg:pr-0">
@@ -62,6 +61,7 @@ export default function HeroSection() {
           </div>
         </div>
       </section>
+      <section className='min-h-svh'></section>
     </main>
   )
 }

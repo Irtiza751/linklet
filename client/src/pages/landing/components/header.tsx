@@ -92,20 +92,18 @@ export const HeroHeader = () => {
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
                 <Button
                   variant="outline"
-                  size="sm"
                   className={cn(isScrolled && 'lg:hidden')}
                 >
                   <Link to="/">
                     <span>Login</span>
                   </Link>
                 </Button>
-                <Button size="sm" className={cn(isScrolled && 'lg:hidden')}>
+                <Button className={cn(isScrolled && 'lg:hidden')}>
                   <Link to="/">
                     <span>Sign Up</span>
                   </Link>
                 </Button>
                 <Button
-                  size="sm"
                   className={cn(isScrolled ? 'lg:inline-flex' : 'hidden')}
                 >
                   <Link to="/">

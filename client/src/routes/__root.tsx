@@ -4,7 +4,6 @@ import { TanStackDevtools } from '@tanstack/react-devtools'
 import appCss from '../styles.css?url'
 import { ThemeProvider } from '@/providers/theme-provider'
 
-
 export const Route = createRootRoute({
   head: () => ({
     meta: [

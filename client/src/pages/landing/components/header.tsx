@@ -1,10 +1,10 @@
 'use client'
 // import { Logo } from '@/components/logo'
-import { Button } from '@/components/ui/button'
 import React from 'react'
-import { cn } from '@/lib/utils'
 import { Link } from '@tanstack/react-router'
 import { IconMenu, IconX } from '@tabler/icons-react'
+import { cn } from '@/lib/utils'
+import { Button } from '@/components/ui/button'
 import { Logo } from '@/components/logo'
 
 const menuItems = [
@@ -46,7 +46,7 @@ export const HeroHeader = () => {
                 aria-label="home"
                 className="flex items-center space-x-2"
               >
-                <Logo className='text-primary' size={30}/>
+                <Logo className="text-primary" size={30} />
               </Link>
 
               <button
@@ -99,10 +99,7 @@ export const HeroHeader = () => {
                     <span>Login</span>
                   </Link>
                 </Button>
-                <Button
-                  size="sm"
-                  className={cn(isScrolled && 'lg:hidden')}
-                >
+                <Button size="sm" className={cn(isScrolled && 'lg:hidden')}>
                   <Link to="/">
                     <span>Sign Up</span>
                   </Link>

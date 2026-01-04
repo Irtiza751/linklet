@@ -1,7 +1,4 @@
 {
-  "cSpell.words": [
-    "Linklet",
-    "tabler"
-  ],
+  "cSpell.words": ["Linklet", "tabler"],
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

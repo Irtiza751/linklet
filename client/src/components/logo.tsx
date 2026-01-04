@@ -1,4 +1,4 @@
-import { useAspectRatio } from "@/hooks/use-aspect-ratio"
+import { useAspectRatio } from '@/hooks/use-aspect-ratio'
 
 type LogoProps = {
   className?: string
